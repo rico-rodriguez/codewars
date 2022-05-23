@@ -3,3 +3,4 @@ String.prototype.toJadenCase = function () {
     return p1 + p2.toUpperCase();
   });
 };
+ 
