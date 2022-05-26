@@ -1,6 +1,6 @@
 # CodeWars Challenges: <a target="_blank" href="https://www.codewars.com/users/The-Rico" >Visit Here</a> 
 
-![iG1gvs6](https://user-images.githubusercontent.com/97664519/169919533-41ca2b32-6e45-4176-a3e5-aaeef35cdcf1.png)
+![UxhbKXS](https://user-images.githubusercontent.com/97664519/170411192-7cf322a3-9ac6-40c9-aa13-65c88c3c044c.png)
 
 A repository filled with codewars challenges (kata). A minimum of 5 pushed weekly.
 
