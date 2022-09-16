@@ -27,7 +27,6 @@ internal class Program
             string lowInput = input.ToLower();
             string formattedInput = RemoveSpecialCharacters(lowInput);
             string flippedInput = Reverse(formattedInput);
-
             if (input == "quit" || input == "exit")
             {
                 break;
@@ -35,29 +34,17 @@ internal class Program
             if (formattedInput == flippedInput)
             {
                 isPalindrome = true;
-                Console.WriteLine("");
                 Console.WriteLine("Palindrome: " + isPalindrome);
-                Console.WriteLine("");
                 Console.WriteLine("Character Length: " + input.Length);
-                Console.WriteLine("");
                 Console.WriteLine("Number of attempts: " + count);
-                Console.WriteLine("");
-                Console.WriteLine("_________________________");
 
             }
             else
             {
                 isPalindrome = false;
-                Console.WriteLine("");
                 Console.WriteLine("Palindrome: " + isPalindrome);
-                Console.WriteLine("");
-
                 Console.WriteLine("Character Length: " + input.Length);
-                Console.WriteLine("");
-
                 Console.WriteLine("Number of attempts: " + count);
-                Console.WriteLine("");
-                Console.WriteLine("_________________________");
             }
             count++;
         }
