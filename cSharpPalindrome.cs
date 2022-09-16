@@ -1,7 +1,4 @@
 using System.Text.RegularExpressions;
-
-
-
 internal class Program
 {
     public static string RemoveSpecialCharacters(string str)
@@ -19,15 +16,11 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Welcome, enter a word to check if it is a palindrome, type 'exit' to exit.");
-
         //Start of global variables
         bool isPalindrome = true;
-        int palindromeLength = 0;
         int count = 1;
-
         //Start of program logic
         while (true)
-
         {
             //Get user input and convert to lowercase and remove all special characters and spaces (REGEX)
             string input = Console.ReadLine();
@@ -35,7 +28,10 @@ internal class Program
             string formattedInput = RemoveSpecialCharacters(lowInput);
             string flippedInput = Reverse(formattedInput);
 
-
+            if (input == "quit" || input == "exit")
+            {
+                break;
+            }
             if (formattedInput == flippedInput)
             {
                 isPalindrome = true;
@@ -49,7 +45,7 @@ internal class Program
                 Console.WriteLine("_________________________");
 
             }
-            if (formattedInput != flippedInput)
+            else
             {
                 isPalindrome = false;
                 Console.WriteLine("");
@@ -62,16 +58,8 @@ internal class Program
                 Console.WriteLine("Number of attempts: " + count);
                 Console.WriteLine("");
                 Console.WriteLine("_________________________");
-
-
-            }
-            else if (input == "quit" || input == "exit")
-            {
-                break;
             }
             count++;
         }
-
     }
-
 }
