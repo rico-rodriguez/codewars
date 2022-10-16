@@ -7,7 +7,8 @@ A repository filled with codewars challenges (kata). A minimum of 5 pushed weekl
 
 ## How It's Made:
 
-**Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/><img src="https://img.shields.io/static/v1?label=|&message=csharp#&color=3c7f5d&style=plastic&logo=csharp"/>
+**Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/><img src="https://img.shields.io/static/v1?label=|&message=CSHARP&color=orange&style=plastic&logo=csharp"/>
+
 
 Everyday, the first thing I do is solve a Codewar! 
 
